@@ -1,1 +1,31 @@
 
+--create table Loja const (Indice int, Material varchar(20), unid varchar(20), Valor number (8,2))
+
+2 --drop table Loja const
+
+3 --insert into Loja_const values (500, 'Martelo', 'Peça', 23.10)
+
+4 --insert into Loja_const values (501, 'Parafusadeira', 'Embalagem', 54.33)
+
+5 --insert into Loja_const values (502, 'Fio elétrico 12', 'Metro', 7.49)
+
+6 --insert into Loja_const values (503, 'Chave de Fenda', 'Peça', 35.32)
+
+7
+
+--insert into Loja_const values (504, 'Tubo de PVC', 'Metro', 15.23)
+
+--insert into Loja_const values (505, 'Prego', 'Pacote', 9.53)
+ --insert into Loja_const values (506, 'Soldador', 'Embalagem', 32.89)
+
+
+--select from Loja_const order by Indice asc
+
+
+--1) Dobrar o preço dos materiais vendidos
+
+--update Loja_const set Valor Valor/2
+
+2) Aumentar em 30% o valor dos materiaias menores que 20
+
+--update Loja_const set Valor = Valor 2 where Valor < 20
